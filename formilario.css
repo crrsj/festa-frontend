@@ -1,0 +1,47 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+form{
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);   
+    background-color: pink;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+
+}
+
+label {
+    font-family: 'Poppins', sans-serif; /* Fonte estilizada, você pode usar outra se preferir */
+    font-weight: bold; /* Negrito */
+    font-size: 16px; /* Tamanho da fonte */
+    color: black; /* Cor do texto */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+    display: block; /* Garante que o label ocupe uma linha inteira */
+    margin-bottom: 8px; /* Espaço abaixo do label */
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #ccc;
+}

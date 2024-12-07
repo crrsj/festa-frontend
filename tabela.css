@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+    margin: 0;
+   
+}
+
+.search-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    height: 40px;
+    width: 250px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-button {
+    height: 40px;
+    width: 40px;
+    background-color: #FF00FF;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-button i {
+    font-size: 18px;
+}
+
+
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: pink;
+    color: black;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+tbody td:first-child {
+    font-weight: bold;
+}
+
+tfoot {
+    background-color: #f1f1f1;
+    text-align: right;
+}
+
+tfoot td {
+    padding: 12px 15px;
+    font-weight: bold;
+}
+
+.botao-verde {
+    background-color: #28a745; /* Cor verde personalizada */
+    color: white;              /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    margin-left: 10%;
+}
+
+.botao-verde:hover {
+    background-color: #218838; /* Verde mais escuro ao passar o cursor */
+}
+
+.button-container {
+    margin-top: 20px;          /* Espaço acima do botão */
+    width: 100%;        /* Alinha o botão à esquerda */
+}
+
+h1 {
+    
+   
+    padding-top: 50px;
+    height: 100px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #ccc;
+}
