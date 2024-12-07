@@ -1,4 +1,4 @@
-sistema de manutenção em ar-condicionado,
+Frontend  para um sistema de gerenciamento de festas infantis
 Tecnologias:
 -Html
 -Css
